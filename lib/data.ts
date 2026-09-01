@@ -4,9 +4,8 @@ export const profile = {
   tagline: "Early career - open to my first GenAI role",
   location: "India",
   email: "mdaanish@example.com",
-  bio: "Passionate GenAI enthusiast building AI products.",
+  summary: "Passionate GenAI enthusiast building with LLMs and modern web tech.",
   resumeFile: "#",
-  avatar: "",
   socials: {
     email: "mailto:mdaanish@example.com",
     github: "https://github.com/mdaanish847122",
@@ -16,47 +15,17 @@ export const profile = {
   github: "https://github.com/mdaanish847122",
   linkedin: "https://linkedin.com",
 };
-
-export const experience = [
-  {
-    role: "GenAI Intern",
-    company: "Learning Projects",
-    period: "2024 - Present",
-    description: "Built AI projects and portfolio."
-  }
-];
-
-export const timeline = [
-  {
-    year: "2024",
-    title: "Started GenAI Journey",
-    description: "Learning LLMs, RAG, and building projects."
-  },
-  {
-    year: "2025",
-    title: "Portfolio Projects",
-    description: "Built multiple AI powered applications."
-  }
-];
-
-export const softSkills = ["Communication", "Teamwork", "Problem Solving", "Adaptability", "Quick Learner"];
-
-export const skills = ["Python", "JavaScript", "Next.js", "GenAI", "LLM", "RAG", "React"];
-
+export const experience = { note: "Learning and building in GenAI" };
 export const projects = [
-  {
-    title: "Portfolio 2",
-    description: "Personal portfolio built with Next.js",
-    link: "https://github.com/mdaanish847122/Portfolio-2",
-    tags: ["Next.js", "Tailwind"]
-  }
+  { title: "AI Portfolio", description: "Portfolio with Next.js", tech: ["Next.js"], link: "#", github: "#" },
+  { title: "GenAI Chat App", description: "Chat app using LLM", tech: ["React"], link: "#", github: "#" }
 ];
-
 export const education = [
-  {
-    degree: "B.Tech",
-    school: "Your College",
-    year: "2022-2026",
-    score: "8.5 CGPA"
-  }
+  { degree: "Bachelors in CS", school: "Your University", year: "2022 - 2026", level: "Undergraduate", board: "University", details: "CS", score: "8.5 CGPA" }
+];
+export const softSkills = ["Communication", "Teamwork"];
+export const focusAreas = ["GenAI", "LLMs"];
+export const timeline = [
+  { year: "2025", title: "Started GenAI", desc: "Learning" },
+  { year: "2026", title: "Open to Opportunities", desc: "Looking for role" }
 ];
