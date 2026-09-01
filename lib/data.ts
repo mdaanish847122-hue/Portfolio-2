@@ -53,7 +53,11 @@ export const education = [
   { id: 1, degree: "Bachelors in CS", school: "Your University", year: "2022 - 2026", level: "Undergraduate", board: "University", details: "CS", score: "8.5 CGPA" }
 ];
 export const softSkills = ["Communication", "Teamwork", "Problem Solving"];
-export const focusAreas = ["GenAI", "LLMs", "Prompt Engineering"];
+export const focusAreas = [
+  { label: "GenAI", icon: "brain" },
+  { label: "LLMs", icon: "bot" },
+  { label: "Prompt Engineering", icon: "lightbulb" }
+];
 export const timeline = [
   { id: 1, year: "2025", title: "Started GenAI", desc: "Learning LLMs" },
   { id: 2, year: "2026", title: "Open to Opportunities", desc: "Looking for role" }
