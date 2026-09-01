@@ -15,7 +15,7 @@ export const profile = {
 };
 
 export const experience = {
-  note: "I am currently learning and building projects in Generative AI, looking for opportunities to start my career. I have built several mini projects using LLMs and modern web technologies."
+  note: "I am currently learning and building projects in Generative AI, looking for opportunities to start my career."
 };
 
 export const projects = [
@@ -37,10 +37,11 @@ export const projects = [
 
 export const education = [
   {
-    degree: "Bachelor's Degree",
-    school: "Your University Name",
+    degree: "Bachelor's in Computer Science",
+    school: "Your University",
     year: "2022 - 2026",
-    details: "Computer Science"
+    level: "Undergraduate",
+    details: "CGPA: 8.5/10"
   }
 ];
 
