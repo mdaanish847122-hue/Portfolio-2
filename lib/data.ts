@@ -2,10 +2,16 @@ export const profile = {
   name: "MD Aanish",
   role: "GenAI Enthusiast",
   tagline: "Early career - open to my first GenAI role",
-  email: "your-email@gmail.com",
+  location: "India",
+  email: "mdaanish@example.com",
+  socials: {
+    email: "mailto:mdaanish@example.com",
+    github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    twitter: "https://twitter.com/",
+  },
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
-  location: "India"
 };
 
 export const experience = {
@@ -34,7 +40,7 @@ export const education = [
     degree: "Bachelor's Degree",
     school: "Your University Name",
     year: "2022 - 2026",
-    details: "Computer Science / Relevant Field"
+    details: "Computer Science"
   }
 ];
 
