@@ -4,6 +4,7 @@ export const profile = {
   tagline: "Early career - open to my first GenAI role",
   location: "India",
   email: "mdaanish@example.com",
+  summary: "I am a passionate GenAI enthusiast currently building projects with LLMs, Next.js and modern web technologies. Open to my first role in Generative AI where I can learn and contribute.",
   socials: {
     email: "mailto:mdaanish@example.com",
     github: "https://github.com/",
