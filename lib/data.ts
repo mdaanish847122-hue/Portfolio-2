@@ -41,8 +41,9 @@ export const education = [
     school: "Your University",
     year: "2022 - 2026",
     level: "Undergraduate",
-    board: "University",
-    details: "CGPA: 8.5/10"
+    board: "University Board",
+    details: "Computer Science",
+    score: "8.5 CGPA"
   }
 ];
 
