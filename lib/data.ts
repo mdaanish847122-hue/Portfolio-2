@@ -4,7 +4,7 @@ export const profile = {
   tagline: "Early career - open to my first GenAI role",
   location: "India",
   email: "mdaanish@example.com",
-  bio: "Passionate GenAI enthusiast building AI projects.",
+  bio: "Passionate GenAI enthusiast building AI products.",
   resumeFile: "#",
   avatar: "",
   socials: {
@@ -17,24 +17,46 @@ export const profile = {
   linkedin: "https://linkedin.com",
 };
 
-export const experience = {
-  note: "Learning and building in public",
-};
+export const experience = [
+  {
+    role: "GenAI Intern",
+    company: "Learning Projects",
+    period: "2024 - Present",
+    description: "Built AI projects and portfolio."
+  }
+];
+
+export const timeline = [
+  {
+    year: "2024",
+    title: "Started GenAI Journey",
+    description: "Learning LLMs, RAG, and building projects."
+  },
+  {
+    year: "2025",
+    title: "Portfolio Projects",
+    description: "Built multiple AI powered applications."
+  }
+];
+
+export const softSkills = ["Communication", "Teamwork", "Problem Solving", "Adaptability", "Quick Learner"];
+
+export const skills = ["Python", "JavaScript", "Next.js", "GenAI", "LLM", "RAG", "React"];
 
 export const projects = [
   {
-    id: 1,
-    title: "AI Portfolio",
-    description: "Modern portfolio with Next.js and AI features.",
-    tech: ["Next.js", "Tailwind"],
-    features: ["Responsive design", "Dark mode"],
-    link: "#",
-    demo: "#",
-    github: "#",
-    image: "",
-    tag: "Web App",
-    category: "GenAI",
-  },
+    title: "Portfolio 2",
+    description: "Personal portfolio built with Next.js",
+    link: "https://github.com/mdaanish847122/Portfolio-2",
+    tags: ["Next.js", "Tailwind"]
+  }
 ];
 
-export const skills = ["Next.js", "React", "Tailwind", "GenAI", "Python"];
+export const education = [
+  {
+    degree: "B.Tech",
+    school: "Your College",
+    year: "2022-2026",
+    score: "8.5 CGPA"
+  }
+];
