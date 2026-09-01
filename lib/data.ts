@@ -18,8 +18,34 @@ export const profile = {
 };
 export const experience = { note: "Learning and building in GenAI" };
 export const projects = [
-  { id: 1, name: "AI Portfolio", title: "AI Portfolio", description: "Modern portfolio with Next.js and Tailwind", tech: ["Next.js", "Tailwind"], link: "#", github: "#", image: "", tag: "Web App", category: "GenAI", featured: true },
-  { id: 2, name: "GenAI Chat App", title: "GenAI Chat App", description: "Chat app using LLM APIs and RAG", tech: ["React", "OpenAI"], link: "#", github: "#", image: "", tag: "GenAI", category: "GenAI", featured: true }
+  { 
+    id: 1, 
+    name: "AI Portfolio", 
+    title: "AI Portfolio", 
+    description: "Modern portfolio with Next.js and Tailwind", 
+    tech: ["Next.js", "Tailwind"], 
+    features: ["Responsive design", "Dark mode", "Fast performance"],
+    link: "#", 
+    github: "#", 
+    image: "", 
+    tag: "Web App", 
+    category: "GenAI", 
+    featured: true 
+  },
+  { 
+    id: 2, 
+    name: "GenAI Chat App", 
+    title: "GenAI Chat App", 
+    description: "Chat app using LLM APIs and RAG", 
+    tech: ["React", "OpenAI"], 
+    features: ["LLM integration", "RAG pipeline", "Real-time chat"],
+    link: "#", 
+    github: "#", 
+    image: "", 
+    tag: "GenAI", 
+    category: "GenAI", 
+    featured: true 
+  }
 ];
 export const education = [
   { id: 1, degree: "Bachelors in CS", school: "Your University", year: "2022 - 2026", level: "Undergraduate", board: "University", details: "CS", score: "8.5 CGPA" }
